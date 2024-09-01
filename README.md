@@ -1,46 +1,19 @@
-# Getting Started with Create React App
+### Опис вибраних підходів та технологій
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1) Я вирішив використовувати **Redux Toolkit** замість звичайного **Redux**, адже він, на мою думку, більш зручний та лаконічний.
+2) Щодо запитів на сервер, я вибрав підхід, який дозволить легко масштабувати додаток у майбутньому.
+3) Для фільтрації деякий час вагався, чи варто змінювати масив користувачів безпосередньо в Redux чи за допомогою проміжної функції робити все локально в компоненті. Врешті-решт, я обрав другий варіант, адже він видався мені більш доречним та кращим для подальшого масштабування. Для цього використав **createSelector** з **Redux Toolkit**.
 
-## Available Scripts
+В цілому по основним моментам це все, в іншому все досить класично і стандартно.
+Сподіваюсь, вам сподобається, з нетерпінням чекаю на ваш фідбек!
 
-In the project directory, you can run:
+---
 
-### `npm start`
+### Summary of Selected Approaches and Technologies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1) I decided to use **Redux Toolkit** instead of regular **Redux** because, in my opinion, it is more convenient and concise.
+2) Regarding server requests, I chose an approach that would allow for easy scalability of the application in the future.
+3) For filtering, I hesitated for a while whether to modify the array of users directly in Redux or to handle everything locally in the component using an intermediary function. Ultimately, I chose the latter option, as it seemed more appropriate and better suited for future scalability. I used **createSelector** from **Redux Toolkit** for this purpose.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Overall, these are the main points; everything else is quite classic and standard.
+I hope you enjoy it, and I look forward to your feedback!
