@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/test-task-smart-business/static/css/main.a5d09ffd.css",
+    "main.js": "/test-task-smart-business/static/js/main.38857733.js",
+    "static/media/loader.svg": "/test-task-smart-business/static/media/loader.9229124256b0c4a27b1144cd4254fe77.svg",
+    "index.html": "/test-task-smart-business/index.html",
+    "main.a5d09ffd.css.map": "/test-task-smart-business/static/css/main.a5d09ffd.css.map",
+    "main.38857733.js.map": "/test-task-smart-business/static/js/main.38857733.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5d09ffd.css",
+    "static/js/main.38857733.js"
+  ]
+}
